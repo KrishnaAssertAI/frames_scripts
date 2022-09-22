@@ -75,8 +75,8 @@ class DriveAPI:
   
         # print a list of files
   
-        print("Here's a list of files: \n")
-        print(*items, sep="\n", end="\n\n")
+        #print("Here's a list of files: \n")
+        #print(*items, sep="\n", end="\n\n")
   
     def FileDownload(self, file_id, file_name):
         request = self.service.files().get_media(fileId=file_id)
